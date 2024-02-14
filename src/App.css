@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1E1F26;
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+img{
+  width:320px;
+  height:275px;
+  border-radius:10px, 10px, 0px, 0px;
+  border-color:white 5px solid
+}
+
+
+
+.bussines-card {
+  width: 320px;
+  background-color: #000633;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+}
+
+
+.container{
+  height: 380px;
+  display:grid;
+  grid-template-: repeat() /1fr 
+}
+
+.btns-container{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.button{
+  border-radius:7px;
+  padding: 5px 10px;
+  font-weight:bold;
+  width:115px;
+  height:35px
+}
+
+.button:hover{
+  color: black;
+  border: 1px solid #ffffff;
+}
+
+#linkedin-btn{
+  color: white;
+  background-color: #5093E2
+}
+
+#email-btn{
+  background-color: #white
+}
+
+.about{
+  text-align: left;
+  padding-bottom:20px; 
+  
+}
+.interests{
+  text-align: left;
+  padding-bottom:20px;
+}
+
+footer{
+  background-color:black;
+  padding: 10px 0
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  font-size:11px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 7.5px
+}
+
+h3{
+  color: #dd8888;
+}
+
+h4{
+  margin: 0 25px;
+  font-weight: bolder;
+}
+
+h6{
+  margin: 5px 0
+}
